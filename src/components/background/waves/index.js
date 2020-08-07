@@ -1,7 +1,5 @@
 import React from "react"
-import { motion } from "framer-motion"
 
-import image from "../../../images/logo.png"
 import Waves1 from "./Wave1"
 import Waves2 from "./Wave2"
 import Waves3 from "./Wave3"
