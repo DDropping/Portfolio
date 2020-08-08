@@ -16,7 +16,7 @@ const Ul = styled.ul`
 `
 
 const Li = styled.li`
-  margin: 10px;
+  margin: 20px 10px 0 10px;
   color: #000000bf;
   border-bottom: 2px solid #b8f4ec;
   &:hover {
