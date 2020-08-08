@@ -29,9 +29,7 @@ const index = ({ children }) => {
           marginTop: "120px",
         }}
       >
-        hellowword
         {children}
-        <footer>footer</footer>
       </div>
     </Container>
   )

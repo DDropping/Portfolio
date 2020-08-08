@@ -1,13 +1,7 @@
 import React from "react"
 
-import TealBottom from "../background/waves/tealBottom"
-
 const index = () => {
-  return (
-    <div>
-      <TealBottom />
-    </div>
-  )
+  return <div>footer</div>
 }
 
 export default index
