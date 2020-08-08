@@ -1,5 +1,5 @@
-/* WAVE 1*/
-.custom-shape-divider-top-1596837605 {
+/* WAVE 1 - largest*/
+.custom-shape-divider-top-1596840126 {
   position: absolute;
   top: 0;
   left: 0;
@@ -8,19 +8,19 @@
   line-height: 0;
 }
 
-.custom-shape-divider-top-1596837605 svg {
+.custom-shape-divider-top-1596840126 svg {
   position: relative;
   display: block;
   width: 10000px;
-  height: 10px;
+  height: 140px;
 }
 
-.custom-shape-divider-top-1596837605 .shape-fill {
-  fill: #b8f4ecec;
+.custom-shape-divider-top-1596840126 .shape-fill {
+  fill: #b8f4ec33;
 }
 
 /* WAVE 2*/
-.custom-shape-divider-top-1596839163 {
+.custom-shape-divider-top-1596840238 {
   position: absolute;
   top: 0;
   left: 0;
@@ -29,15 +29,15 @@
   line-height: 0;
 }
 
-.custom-shape-divider-top-1596839163 svg {
+.custom-shape-divider-top-1596840238 svg {
   position: relative;
   display: block;
   width: 10000px;
-  height: 50px;
+  height: 120px;
 }
 
-.custom-shape-divider-top-1596839163 .shape-fill {
-  fill: #b8f4eccc;
+.custom-shape-divider-top-1596840238 .shape-fill {
+  fill: #b8f4ec66;
 }
 
 /* WAVE 3*/
@@ -62,7 +62,7 @@
 }
 
 /* WAVE 4*/
-.custom-shape-divider-top-1596840238 {
+.custom-shape-divider-top-1596839163 {
   position: absolute;
   top: 0;
   left: 0;
@@ -71,19 +71,19 @@
   line-height: 0;
 }
 
-.custom-shape-divider-top-1596840238 svg {
+.custom-shape-divider-top-1596839163 svg {
   position: relative;
   display: block;
   width: 10000px;
-  height: 120px;
+  height: 50px;
 }
 
-.custom-shape-divider-top-1596840238 .shape-fill {
-  fill: #b8f4ec66;
+.custom-shape-divider-top-1596839163 .shape-fill {
+  fill: #b8f4eccc;
 }
 
-/* WAVE 5*/
-.custom-shape-divider-top-1596840126 {
+/* WAVE 5 - smallest*/
+.custom-shape-divider-top-1596837605 {
   position: absolute;
   top: 0;
   left: 0;
@@ -92,13 +92,13 @@
   line-height: 0;
 }
 
-.custom-shape-divider-top-1596840126 svg {
+.custom-shape-divider-top-1596837605 svg {
   position: relative;
   display: block;
   width: 10000px;
-  height: 140px;
+  height: 10px;
 }
 
-.custom-shape-divider-top-1596840126 .shape-fill {
-  fill: #b8f4ec33;
+.custom-shape-divider-top-1596837605 .shape-fill {
+  fill: #b8f4ecec;
 }

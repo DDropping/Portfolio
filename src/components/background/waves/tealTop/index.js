@@ -2,17 +2,18 @@ import React from "react"
 import styled from "styled-components"
 
 import Wave from "../Wave"
+import "./waves.css"
 
 const Container = styled.div`
   position: relative;
 `
-//most transparent -> most solid (bottom to top / largest to smallest)
+//most transparent -> most solid
 const index = () => {
   return (
     <Container>
-      {/* Wave 1 - largest*/}
+      {/* Wave 1 */}
       <Wave
-        cName="custom-shape-divider-top-1596840126"
+        cName="custom-shape-divider-bottom-1596860405"
         init={{ x: "0px" }}
         anim={{ x: ["-1500px", "0px", "-1500px"] }}
         trans={{
@@ -25,7 +26,7 @@ const index = () => {
       />
       {/* Wave 2 */}
       <Wave
-        cName="custom-shape-divider-top-1596840238"
+        cName="custom-shape-divider-bottom-1596861518"
         init={{ x: "-2500px" }}
         anim={{ x: ["0px", "-2500px", "0px"] }}
         trans={{
@@ -38,7 +39,7 @@ const index = () => {
       />
       {/* Wave 3 */}
       <Wave
-        cName="custom-shape-divider-top-1596838987"
+        cName="custom-shape-divider-bottom-1596861892"
         init={{ x: "0px" }}
         anim={{ x: ["-3000px", "0px", "-3000px"] }}
         trans={{
@@ -51,7 +52,7 @@ const index = () => {
       />
       {/* Wave 4 */}
       <Wave
-        cName="custom-shape-divider-top-1596839163"
+        cName="custom-shape-divider-bottom-1596862021"
         init={{ x: "-2000px" }}
         anim={{ x: ["0px", "-2000px", "0px"] }}
         trans={{
@@ -62,9 +63,9 @@ const index = () => {
           repeatDelay: 0,
         }}
       />
-      {/* Wave 5 - smallest*/}
+      {/* Wave 5 */}
       <Wave
-        cName="custom-shape-divider-top-1596837605"
+        cName="custom-shape-divider-bottom-1596862144"
         init={{ x: "-1000px" }}
         anim={{ x: ["0px", "-1000px", "0px"] }}
         trans={{
