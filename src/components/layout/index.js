@@ -12,7 +12,7 @@ import styled from "styled-components"
 
 import "./layout.css"
 import Header from "../header"
-import Waves from "../background/waves"
+import TealBottom from "../background/waves/tealBottom"
 
 const Container = styled.div`
   margin: 0;
@@ -22,11 +22,10 @@ const index = ({ children }) => {
   return (
     <Container>
       <Header />
-      <Waves />
+      <TealBottom />
       <div
         style={{
           margin: `0 auto`,
-          maxWidth: "1200px",
           marginTop: "120px",
         }}
       >
