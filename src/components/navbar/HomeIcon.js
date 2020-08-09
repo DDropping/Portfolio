@@ -9,7 +9,7 @@ const Container = styled.div`
 const HomeIcon = () => {
   return (
     <Container>
-      <motion.Container
+      <motion.div
         style={{
           width: "33px",
           height: "33px",
@@ -43,7 +43,7 @@ const HomeIcon = () => {
             left: "7px",
           }}
         />
-      </motion.Container>
+      </motion.div>
     </Container>
   )
 }

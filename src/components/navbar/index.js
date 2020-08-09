@@ -34,8 +34,12 @@ const index = () => {
       </AnchorLink>
       {navbarLinks.map((item, index) => {
         return (
-          <AnchorLink to={item.link} style={{ textDecoration: "none" }}>
-            <Li key={index}>
+          <AnchorLink
+            to={item.link}
+            style={{ textDecoration: "none" }}
+            key={index}
+          >
+            <Li>
               {item.icon}
               {item.title}
             </Li>
