@@ -8,7 +8,7 @@ import profileImg from "../../images/DavidProfile.png"
 const Container = styled.div`
   margin: 0 auto 140px auto;
   padding: 0 10px;
-  max-width: 800px;
+  max-width: 900px;
 `
 
 const Image = styled.img`
