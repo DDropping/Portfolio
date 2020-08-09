@@ -5,7 +5,7 @@ import GreenTop from "../background/waves/greenTop.js"
 import contact from "../../constants/contact"
 
 const Container = styled.div`
-  background-color: #aff0c2;
+  background-color: #f0f0af;
 `
 const ContactContainer = styled.div`
   display: flex;

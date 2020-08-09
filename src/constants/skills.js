@@ -1,5 +1,5 @@
 export default {
-  languages: ["Java", "Javascript", "C++", "C", "Swift"],
+  languages: ["Java", "JavaScript", "C++", "C", "Swift"],
   web: [
     "Node.js",
     "React",

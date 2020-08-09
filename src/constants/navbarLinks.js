@@ -11,12 +11,12 @@ export default [
   {
     title: " About",
     icon: <UserOutlined />,
-    link: "/page-2",
+    link: "/about",
   },
   {
     title: " Skills",
     icon: <ToolOutlined />,
-    link: "/page-2",
+    link: "/about",
   },
   {
     title: " Projects",
