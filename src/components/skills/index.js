@@ -15,12 +15,14 @@ const MainContainer = styled.div`
   margin: 0 auto;
 `
 
-const SectionTitle = styled.h3`
+const SectionTitle = styled.div`
   text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
 `
 const Underline = styled.div`
   margin: 0 auto;
-  border-top: 2px solid black;
+  border-top: 2px solid #00000015;
   width: 2.5rem;
 `
 
@@ -56,7 +58,7 @@ const index = () => {
           {skills.languages.map((skill, index) => {
             return (
               <SkillWrapper key={index}>
-                <CaretRightOutlined style={{ color: "white" }} />
+                <CaretRightOutlined style={{ color: "#00000015" }} />
                 {skill}
               </SkillWrapper>
             )
@@ -68,7 +70,7 @@ const index = () => {
           {skills.databases.map((skill, index) => {
             return (
               <SkillWrapper key={index}>
-                <CaretRightOutlined style={{ color: "white" }} />
+                <CaretRightOutlined style={{ color: "#00000015" }} />
                 {skill}
               </SkillWrapper>
             )
@@ -80,7 +82,7 @@ const index = () => {
           {skills.web.map((skill, index) => {
             return (
               <SkillWrapper key={index}>
-                <CaretRightOutlined style={{ color: "white" }} />
+                <CaretRightOutlined style={{ color: "#00000015" }} />
                 {skill}
               </SkillWrapper>
             )
@@ -92,7 +94,7 @@ const index = () => {
           {skills.tools.map((skill, index) => {
             return (
               <SkillWrapper key={index}>
-                <CaretRightOutlined style={{ color: "white" }} />
+                <CaretRightOutlined style={{ color: "#00000015" }} />
                 {skill}
               </SkillWrapper>
             )

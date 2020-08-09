@@ -8,13 +8,15 @@ const Container = styled.div`
   margin: 140px auto 0 auto;
 `
 
-const SectionTitle = styled.h3`
+const SectionTitle = styled.div`
   text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
 `
 
 const Underline = styled.div`
   margin: 0 auto;
-  border-top: 2px solid black;
+  border-top: 2px solid #c2ffe5;
   width: 2.5rem;
 `
 
