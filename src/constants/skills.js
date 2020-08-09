@@ -3,6 +3,8 @@ export default {
   web: [
     "Node.js",
     "React",
+    "Angular",
+    "Vue",
     "Redux",
     "Express",
     "GraphQL",
