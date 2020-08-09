@@ -6,6 +6,7 @@ import projectData from "../../constants/projects"
 
 const Container = styled.div`
   margin: 140px auto 0 auto;
+  padding: 0 10px;
 `
 
 const SectionTitle = styled.div`
