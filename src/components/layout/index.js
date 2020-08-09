@@ -25,7 +25,6 @@ const index = ({ children }) => {
       <Header />
       <div
         style={{
-          margin: `0 auto`,
           margin: "140px 0",
           flex: 1,
         }}
