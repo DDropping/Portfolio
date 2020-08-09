@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import { Link } from "gatsby"
+import { AnchorLink } from "gatsby-plugin-anchor-links"
 
 import navbarLinks from "../../constants/navbarLinks"
 import HomeIcon from "./HomeIcon"
@@ -29,17 +29,17 @@ const Li = styled.li`
 const index = () => {
   return (
     <Ul>
-      <Link to="/">
+      <AnchorLink to="/">
         <HomeIcon />
-      </Link>
+      </AnchorLink>
       {navbarLinks.map((item, index) => {
         return (
-          <Link to={item.link} style={{ textDecoration: "none" }}>
+          <AnchorLink to={item.link} style={{ textDecoration: "none" }}>
             <Li key={index}>
               {item.icon}
               {item.title}
             </Li>
-          </Link>
+          </AnchorLink>
         )
       })}
     </Ul>

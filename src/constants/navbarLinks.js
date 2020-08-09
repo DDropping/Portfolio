@@ -16,12 +16,12 @@ export default [
   {
     title: " Skills",
     icon: <ToolOutlined />,
-    link: "/about",
+    link: "/#skills",
   },
   {
     title: " Projects",
     icon: <CodeOutlined />,
-    link: "/page-2",
+    link: "/#projects",
   },
   {
     title: "Resume",

@@ -15,13 +15,22 @@ const MainContainer = styled.div`
   margin: 0 auto;
 `
 
+const SectionTitle = styled.h3`
+  text-align: center;
+`
+const Underline = styled.div`
+  margin: 0 auto;
+  border-top: 2px solid black;
+  width: 2.5rem;
+`
+
 const SkillsContainer = styled.div`
   padding: 0 10px 0 75px;
   display: flex;
   flex-wrap: wrap;
 `
 
-const Title = styled.h2`
+const Title = styled.h3`
   max-width: 1000px;
   margin: 0 auto;
   width: 100%;
@@ -38,6 +47,10 @@ const index = () => {
     <Container>
       <TealTop />
       <MainContainer>
+        <SectionTitle id="skills">
+          Skills
+          <Underline />
+        </SectionTitle>
         <Title>Languages</Title>
         <SkillsContainer>
           {skills.languages.map((skill, index) => {
