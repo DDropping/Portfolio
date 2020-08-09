@@ -1,31 +1,31 @@
 import React from "react"
 import {
   CodeOutlined,
-  GithubOutlined,
-  LinkedinOutlined,
-  CopyOutlined,
+  UserOutlined,
+  ToolOutlined,
+  FileTextOutlined,
   ContactsOutlined,
 } from "@ant-design/icons"
 
 export default [
   {
-    title: "Projects",
+    title: " About",
+    icon: <UserOutlined />,
+    link: "/page-2",
+  },
+  {
+    title: " Skills",
+    icon: <ToolOutlined />,
+    link: "/page-2",
+  },
+  {
+    title: " Projects",
     icon: <CodeOutlined />,
     link: "/page-2",
   },
   {
-    title: "Github",
-    icon: <GithubOutlined />,
-    link: "/page-2",
-  },
-  {
-    title: "LinkedIn",
-    icon: <LinkedinOutlined />,
-    link: "/page-2",
-  },
-  {
     title: "Resume",
-    icon: <CopyOutlined />,
+    icon: <FileTextOutlined />,
     link: "/page-2",
   },
   {

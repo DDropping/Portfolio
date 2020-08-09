@@ -1,6 +1,5 @@
 import React from "react"
 import styled from "styled-components"
-import { Link } from "gatsby"
 
 import GreenTop from "../background/waves/greenTop.js"
 import contact from "../../constants/contact"
@@ -32,7 +31,12 @@ const index = () => {
         {contact.map((item, index) => {
           return (
             <ContactItem key={index}>
-              <a href={item.link} target="_blank" style={{ color: "black" }}>
+              <a
+                href={item.link}
+                target="_blank"
+                rel="noreferrer"
+                style={{ color: "black" }}
+              >
                 {item.icon}
                 {item.title}
               </a>
