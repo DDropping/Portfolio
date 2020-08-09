@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 
 import Wave from "../Wave"
+import "./waves.css"
 
 const Container = styled.div`
   position: relative;

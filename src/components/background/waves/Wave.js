@@ -1,8 +1,6 @@
 import React from "react"
 import { motion } from "framer-motion"
 
-import "./waves.css"
-
 const Wave = ({ cName, init, anim, trans }) => {
   return (
     <div class={cName}>

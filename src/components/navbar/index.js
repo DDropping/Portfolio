@@ -18,7 +18,7 @@ const Ul = styled.ul`
 const Li = styled.li`
   margin: 20px 10px 0 10px;
   color: #000000bf;
-  border-bottom: 2px solid #b8f4ec;
+  border-bottom: 2px solid #c2fbff;
   &:hover {
     transition: all 0.2s ease-in-out;
     color: #000000;

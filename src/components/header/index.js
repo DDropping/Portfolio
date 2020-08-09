@@ -6,7 +6,7 @@ import TealBottom from "../background/waves/tealBottom"
 
 const Container = styled.div`
   width: 100%;
-  background-color: #b8f4ec;
+  background-color: #c2fbff;
 `
 
 const index = () => {
