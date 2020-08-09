@@ -1,6 +1,6 @@
 export default {
-  languages: ["java", "Javascript", "C++", "C", "Swift"],
-  Web: [
+  languages: ["Java", "Javascript", "C++", "C", "Swift"],
+  web: [
     "Node.js",
     "React",
     "Redux",
@@ -10,7 +10,7 @@ export default {
     "CSS",
     "SCSS/SASS",
   ],
-  Tools: [
+  tools: [
     "Git",
     "Docker",
     "AWS",
@@ -21,6 +21,6 @@ export default {
     "Jest",
     "Enzyme",
   ],
-  Databases: ["MySQL", "PostgreSQL", "MongoDB"],
-  Mobile: ["UIKit"],
+  databases: ["MySQL", "PostgreSQL", "MongoDB"],
+  mobile: ["UIKit"],
 }
