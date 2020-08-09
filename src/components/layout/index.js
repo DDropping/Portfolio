@@ -7,30 +7,32 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
 
 import "./layout.css"
 import Header from "../header"
-import TealBottom from "../background/waves/tealBottom"
+import Footer from "../footer"
 
 const Container = styled.div`
-  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 `
 
 const index = ({ children }) => {
   return (
     <Container>
       <Header />
-      <TealBottom />
       <div
         style={{
           margin: `0 auto`,
-          marginTop: "120px",
+          margin: "140px 0",
+          flex: 1,
         }}
       >
         {children}
       </div>
+      <Footer />
     </Container>
   )
 }

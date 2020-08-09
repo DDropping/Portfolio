@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 
 import Navbar from "../navbar"
+import TealBottom from "../background/waves/tealBottom"
 
 const Container = styled.div`
   width: 100%;
@@ -12,6 +13,7 @@ const index = () => {
   return (
     <Container>
       <Navbar />
+      <TealBottom />
     </Container>
   )
 }
