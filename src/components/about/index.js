@@ -37,7 +37,7 @@ const index = () => {
         <Col xs={24} sm={24} md={10} lg={10}>
           <Image src={profileImg} />
         </Col>
-        <Col sm={24} md={14} lg={14}>
+        <Col xs={24} sm={24} md={14} lg={14}>
           <DescriptionContainer>
             <h1>Hi, I'm David!</h1>
             <Paragraph>
