@@ -24,13 +24,13 @@ export default [
     link: "/#projects",
   },
   {
-    title: "Resume",
+    title: " Resume",
     icon: <FileTextOutlined />,
-    link: "/page-2",
+    link: "/resume",
   },
   {
-    title: "Contact",
+    title: " Contact",
     icon: <ContactsOutlined />,
-    link: "/page-2",
+    link: "/contact",
   },
 ]
