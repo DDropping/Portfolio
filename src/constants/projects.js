@@ -1,16 +1,17 @@
 import boardrackImg from "../images/project-boardrack.png"
+import boardrackv2Image from "../images/project-boardrackv2.png"
 import samsDesignsImg from "../images/project-samsDesigns.png"
 import portfolioImg from "../images/project-portfolio.png"
 import sfsurentImg from "../images/project-sfsurent.png"
 
 export default [
   {
-    title: "BoardRack V2",
-    image: boardrackImg,
+    title: "BoardRack V2 (in progress)",
+    image: boardrackv2Image,
     description:
-      "BoardRack is a classified advertisement platform for buying or selling new and used surfboards. As it stands, it consists of a homepage for users to search or browse surfboards for sale, a user portal for CRUD operations pertaining to posts or account details, a messaging platform to allow interested parties to contact sellers, and location based services to show relevant posts depending on user's location.",
+      "BoardRack V2 is a complete overhaul of the origional classified advertisement platform for buying or selling new and used surfboards.",
     motivation:
-      "BoardRack began as an ambitious project to solidify my knowlege with Node.js, React, and Redux, but quickly turned into a passion project that has provided me with a solid foundation in full-stack development.",
+      "In version 2, I moved away from CRA and migrated to Next.js for improved SEO and SSR capabilites. I replaced the custom Express server with Next.js' API endpoints for a serverless configuration. The styling has migrated from CSS to CSS in JS conventions using Styled-Components, and introduced unit and integration testing with Jest and Enzyme. All part of an overall front to back redesign and update.",
     technologies: [
       "React",
       "Redux",
@@ -22,7 +23,20 @@ export default [
     services: ["Here API", "IPStack", "AWS", "DigitalOcean"],
     website: "n/a",
     github: "https://github.com/DDropping/BoardRack_v2",
-    bgColor: "linear-gradient(#c2ffe5, #c2ffdb)",
+    bgColor: "linear-gradient(#c2ffef, #c2ffe1)",
+  },
+  {
+    title: "BoardRack",
+    image: boardrackImg,
+    description:
+      "BoardRack is a classified advertisement platform for buying or selling new and used surfboards. As it stands, it consists of a homepage for users to search or browse surfboards for sale, a user portal for CRUD operations pertaining to posts or account details, a messaging platform to allow interested parties to contact sellers, and location based services to show relevant posts depending on user's location.",
+    motivation:
+      "BoardRack began as an ambitious project to solidify my knowlege with Node.js, React, and Redux, but quickly turned into a passion project that has provided me with a solid foundation in full-stack development.",
+    technologies: ["React", "Redux", "Node", "Express", "MongoDB", "CSS"],
+    services: ["Here API", "IPStack", "AWS", "DigitalOcean"],
+    website: "n/a",
+    github: "https://github.com/DDropping/BoardRack",
+    bgColor: "linear-gradient(#c2ffe1, #c2ffd3)",
   },
   {
     title: "Sams Designs",
@@ -35,7 +49,7 @@ export default [
     services: ["Contentful", "Stripe", "Neftlify"],
     website: "https://samsdesigns.netlify.com/",
     github: "https://github.com/DDropping/ecommerce",
-    bgColor: "linear-gradient(#c2ffdb, #c2ffd0)",
+    bgColor: "linear-gradient(#c2ffd3, #c2ffc3)",
   },
   {
     title: "Portfolio (previous)",
@@ -47,9 +61,7 @@ export default [
     technologies: [
       "Gatsby",
       "React",
-
       "Node",
-
       "SCSS",
       "GraphQL",
       "React-Bootstrap",
@@ -58,7 +70,7 @@ export default [
     services: ["Netlify"],
     website: "n/a",
     github: "https://github.com/DDropping/David-Portfolio",
-    bgColor: "linear-gradient(#c2ffd0, #c2ffc5)",
+    bgColor: "linear-gradient(#c2ffc3, #cdffc2)",
   },
   {
     title: "SFSU Rent",
@@ -69,8 +81,8 @@ export default [
       "During the development of this platform, we incorporated practical methods and tools for software engineering including: Agile development, and weekly scrum meetings.",
     technologies: ["Node", "MySQL", "HTML5", "CSS3"],
     services: ["AWS", "Google", "Maps"],
-    website: "http://ec2-18-144-46-90.us-west-1.compute.amazonaws.com/listing/",
+    website: "n/a",
     github: "https://github.com/DDropping/SFSURent",
-    bgColor: "linear-gradient(#c2ffc5, #caffc2)",
+    bgColor: "linear-gradient(#cdffc2, #d7ffc2)",
   },
 ]
