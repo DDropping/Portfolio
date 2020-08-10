@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap");
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -8,6 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+html,
 article,
 aside,
 details,
@@ -94,7 +97,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  font-family: Helvetica, Arial, Sans-Serif;
   font-size: 1em;
 }
 figure {
@@ -200,7 +203,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: Helvetica, Arial, Sans-Serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;

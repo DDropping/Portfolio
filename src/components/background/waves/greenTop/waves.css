@@ -1,0 +1,109 @@
+/* Wave 1 */
+.custom-shape-divider-bottom-15968604051 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-15968604051 svg {
+  position: relative;
+  display: block;
+  width: 10000px;
+  height: 140px;
+}
+
+.custom-shape-divider-bottom-15968604051 .shape-fill {
+  fill: #caffc233;
+}
+
+/* Wave 2 */
+.custom-shape-divider-bottom-15968615181 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-15968615181 svg {
+  position: relative;
+  display: block;
+  width: 10000px;
+  height: 120px;
+}
+
+.custom-shape-divider-bottom-15968615181 .shape-fill {
+  fill: #caffc266;
+}
+
+/* Wave 3 */
+.custom-shape-divider-bottom-15968618921 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-15968618921 svg {
+  position: relative;
+  display: block;
+  width: 10000px;
+  height: 80px;
+}
+
+.custom-shape-divider-bottom-15968618921 .shape-fill {
+  fill: #caffc299;
+}
+
+/* Wave 4 */
+.custom-shape-divider-bottom-15968620211 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-15968620211 svg {
+  position: relative;
+  display: block;
+  width: 10000px;
+  height: 60px;
+}
+
+.custom-shape-divider-bottom-15968620211 .shape-fill {
+  fill: #caffc2cc;
+}
+
+/* Wave 5 */
+.custom-shape-divider-bottom-15968621441 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-15968621441 svg {
+  position: relative;
+  display: block;
+  width: 10000px;
+  height: 10px;
+}
+
+.custom-shape-divider-bottom-15968621441 .shape-fill {
+  fill: #caffc2ec;
+}
