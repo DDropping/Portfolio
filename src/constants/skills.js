@@ -16,7 +16,7 @@ export default {
     "Git",
     "Docker",
     "AWS",
-    "DigitalOcean",
+    "Digital Ocean",
     "Firebase",
     "Jenkins",
     "Mocha",

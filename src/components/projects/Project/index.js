@@ -37,7 +37,7 @@ const Techtitle = styled.h4`
 `
 
 const TechWrapper = styled.h5`
-  width: 6rem;
+  width: 6.5rem;
 `
 
 const Links = styled.div`
