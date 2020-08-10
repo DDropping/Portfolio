@@ -29,6 +29,7 @@ const ContactItem = styled.div`
 const Note = styled.div`
   display: flex;
   justify-content: center;
+  text-align: center;
   margin-bottom: 1rem;
 `
 

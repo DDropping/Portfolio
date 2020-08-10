@@ -59,12 +59,14 @@ const index = () => {
                 more
               </strong>
               . You can find my full resume{" "}
-              <Link
-                to="/resume"
+              <a
+                href="https://drive.google.com/file/d/1OoGXm9yCowjETA5rUNHaz97gXPB8wrfw/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
                 style={{ textDecoration: "none", color: "#00d0da" }}
               >
                 <strong>here</strong>
-              </Link>
+              </a>
               . And while you're here,{" "}
               <Link
                 to="/contact"
