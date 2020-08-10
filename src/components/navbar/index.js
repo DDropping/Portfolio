@@ -59,7 +59,20 @@ const index = () => {
       </Link>
       <Ul>
         {navbarLinks.map((item, index) => {
-          return (
+          return item.title === " Resume" ? (
+            <a
+              href={item.link}
+              target="_blank"
+              rel="noreferrer"
+              style={{ textDecoration: "none" }}
+              key={index}
+            >
+              <Li>
+                {item.icon}
+                {item.title}
+              </Li>
+            </a>
+          ) : (
             <AnchorLink
               to={item.link}
               style={{ textDecoration: "none" }}

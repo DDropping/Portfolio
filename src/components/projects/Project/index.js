@@ -35,7 +35,11 @@ const Techtitle = styled.h4`
 `
 
 const TechWrapper = styled.h5`
-  margin: 0 1rem;
+  width: 6rem;
+`
+
+const Links = styled.div`
+  display: inline-block;
 `
 
 const index = ({
@@ -57,28 +61,30 @@ const index = ({
         </Col>
         <Col xs={24} sm={24} md={24} lg={12}>
           <Title>{title}</Title>
-          {website !== "n/a" && (
-            <a
-              href={website}
-              target="_blank"
-              rel="noreferrer"
-              style={{ color: "#00d0da", marginLeft: "20px" }}
-            >
-              <GlobalOutlined />
-              Website
-            </a>
-          )}
-          {github !== "n/a" && (
-            <a
-              href={github}
-              target="_blank"
-              rel="noreferrer"
-              style={{ color: "#00d0da", margin: "10px" }}
-            >
-              <GithubOutlined />
-              Repository
-            </a>
-          )}
+          <Links>
+            {website !== "n/a" && (
+              <a
+                href={website}
+                target="_blank"
+                rel="noreferrer"
+                style={{ color: "#00d0da", marginLeft: "20px" }}
+              >
+                <GlobalOutlined />
+                Website
+              </a>
+            )}
+            {github !== "n/a" && (
+              <a
+                href={github}
+                target="_blank"
+                rel="noreferrer"
+                style={{ color: "#00d0da", margin: "10px" }}
+              >
+                <GithubOutlined />
+                Repository
+              </a>
+            )}
+          </Links>
           <Description>{description}</Description>
           <Description>{motivation}</Description>
         </Col>
