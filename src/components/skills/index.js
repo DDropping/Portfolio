@@ -36,7 +36,8 @@ const SkillsContainer = styled.div`
   }
 `
 
-const Title = styled.h3`
+const Title = styled.div`
+  font-size: 1.1rem;
   max-width: 1000px;
   margin: 0 auto;
   padding-top: 15px;
@@ -46,7 +47,7 @@ const Title = styled.h3`
 const SkillWrapper = styled.div`
   margin: 1rem 0;
   font-weight: bold;
-  width: 9rem;
+  width: 8rem;
   @media (max-width: 768px) {
     margin: 0.25rem 0;
   }
