@@ -11,6 +11,7 @@ const resume = () => (
       <img
         style={{
           maxWidth: "700px",
+          width: "100%",
           margin: "auto",
           borderTop: "1px solid #8b8b8b",
         }}

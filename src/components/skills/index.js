@@ -36,7 +36,7 @@ const Title = styled.h3`
   max-width: 1000px;
   margin: 0 auto;
   width: 100%;
-  margin-left: 10px;
+  padding-left: 10px;
 `
 const SkillWrapper = styled.div`
   margin: 1rem 0;

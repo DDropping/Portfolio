@@ -14,7 +14,7 @@ const Container = styled.div`
 const Image = styled.img`
   display: block;
   margin: auto;
-  width: 100%;
+  width: 90%;
   max-width: 400px;
   border-radius: 50%;
 `
@@ -33,7 +33,7 @@ const Paragraph = styled.p`
 const index = () => {
   return (
     <Container>
-      <Row gutter={32}>
+      <Row>
         <Col xs={24} sm={24} md={10} lg={10}>
           <Image src={profileImg} />
         </Col>
