@@ -10,7 +10,7 @@ const Container = styled.div`
 `
 
 const SectionTitle = styled.div`
-  font-family: "Fugaz One", cursive;
+  font-family: "Fugaz One", Helvetica, Arial;
   text-align: center;
   font-size: 1.5rem;
   font-weight: bold;
