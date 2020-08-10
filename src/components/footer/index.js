@@ -10,6 +10,7 @@ const Container = styled.div`
 const ContactContainer = styled.div`
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin: 0 1rem;
 `
 
@@ -18,8 +19,13 @@ const ContactItem = styled.div`
   border-top: 2px solid #caffc2;
   &:hover {
     transition: all 0.2s ease-in-out;
-    color: #000000;
-    border-top: 2px solid #000000;
+    border-top: 2px solid #00b6bf;
+  }
+  a {
+    color: black;
+    &:hover {
+      color: #00b6bf;
+    }
   }
 `
 
@@ -37,12 +43,7 @@ const index = () => {
         {contact.map((item, index) => {
           return (
             <ContactItem key={index}>
-              <a
-                href={item.link}
-                target="_blank"
-                rel="noreferrer"
-                style={{ color: "black" }}
-              >
+              <a href={item.link} target="_blank" rel="noreferrer">
                 {item.icon}
                 {item.title}
               </a>
