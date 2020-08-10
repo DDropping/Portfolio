@@ -2,7 +2,8 @@ import React, { useState } from "react"
 import styled from "styled-components"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { Link } from "gatsby"
-import { Drawer, Button } from "antd"
+import { Drawer } from "antd"
+import { HomeOutlined } from "@ant-design/icons"
 import { MenuOutlined } from "@ant-design/icons"
 
 import navbarLinks from "../../constants/navbarLinks"
@@ -49,6 +50,12 @@ const DrawerMenu = () => {
         visible={isOpen}
       >
         <Ul>
+          <Link to="/" style={{ textDecoration: "none" }} key="home">
+            <Li>
+              <HomeOutlined />
+              {" Home"}
+            </Li>
+          </Link>
           {navbarLinks.map((item, index) => {
             return (
               <AnchorLink
