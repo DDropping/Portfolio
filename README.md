@@ -1,7 +1,7 @@
-### [Checkout My Portfolio Here](http://www.ddropping.com)
 ![screenshot](https://github.com/DDropping/portfolio/blob/master/src/images/project-portfolio2-medium.png)
 
-# Portfolio
+# Portfolio 
+### [Visit The Live Site Here](http://www.ddropping.com)
 
 A portfolio website to showcase current and previous projects. Built with React, Gatsby, Framer-Motion, Styled-Components
 
