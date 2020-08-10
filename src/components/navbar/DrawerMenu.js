@@ -51,7 +51,7 @@ const DrawerMenu = () => {
       >
         <Ul>
           <Link to="/" style={{ textDecoration: "none" }} key="home">
-            <Li>
+            <Li onClick={() => toggleOpen(false)}>
               <HomeOutlined />
               {" Home"}
             </Li>
@@ -63,7 +63,7 @@ const DrawerMenu = () => {
                 style={{ textDecoration: "none" }}
                 key={index}
               >
-                <Li>
+                <Li onClick={() => toggleOpen(false)}>
                   {item.icon}
                   {item.title}
                 </Li>

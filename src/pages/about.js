@@ -34,7 +34,7 @@ const Container = styled.div`
 const Image = styled.img`
   display: block;
   margin: auto;
-  width: 100%;
+  width: 90%;
   max-width: 400px;
   border-radius: 50%;
 `
