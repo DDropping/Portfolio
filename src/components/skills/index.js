@@ -20,6 +20,7 @@ const SectionTitle = styled.div`
   text-align: center;
   font-size: 1.5rem;
   font-weight: bold;
+  color: black;
 `
 const Underline = styled.div`
   margin: 0 auto;
@@ -37,6 +38,8 @@ const SkillsContainer = styled.div`
 `
 
 const Title = styled.div`
+  font-family: "Fugaz One", cursive;
+  color: black;
   font-size: 1.1rem;
   max-width: 1000px;
   margin: 0 auto;

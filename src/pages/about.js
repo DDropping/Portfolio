@@ -72,7 +72,7 @@ const AboutPage = () => (
               </strong>
               . You can find my full resume{" "}
               <a
-                href="https://drive.google.com/file/d/1OoGXm9yCowjETA5rUNHaz97gXPB8wrfw/view?usp=sharing"
+                href="https://drive.google.com/file/d/1YLYSR_mtj4gnGJHZ1rJ0kHMaj-pDBIan/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
                 style={{ textDecoration: "none", color: "#00d0da" }}

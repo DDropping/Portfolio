@@ -69,7 +69,7 @@ export default [
       "During the development of this platform, we incorporated practical methods and tools for software engineering including: Agile development, and weekly scrum meetings.",
     technologies: ["Node", "MySQL", "HTML5", "CSS3"],
     services: ["AWS", "Google", "Maps"],
-    website: "http://ec2-18-144-46-90.us-west-1.compute.amazonaws.com/listing/",
+    website: "n/a",
     github: "https://github.com/DDropping/SFSURent",
     bgColor: "linear-gradient(#c2ffc5, #caffc2)",
   },

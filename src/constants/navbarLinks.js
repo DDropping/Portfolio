@@ -27,7 +27,8 @@ export default [
     title: " Resume",
     icon: <FileTextOutlined />,
     link:
-      "https://drive.google.com/file/d/1OoGXm9yCowjETA5rUNHaz97gXPB8wrfw/view?usp=sharing",
+      "https://drive.google.com/file/d/1YLYSR_mtj4gnGJHZ1rJ0kHMaj-pDBIan/view?usp=sharing",
+    /* If update url, also update url in src/components/about && src/pages/about */
   },
   {
     title: " Contact",

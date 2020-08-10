@@ -15,6 +15,7 @@ const ContactContainer = styled.div`
 `
 
 const ContactItem = styled.div`
+  font-family: "Fugaz One", cursive;
   margin: 0 25px;
   border-bottom: 2px solid #caffc2;
   &:hover {
