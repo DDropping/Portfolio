@@ -19,7 +19,7 @@ export default [
       "MongoDB",
       "Styled-Components",
     ],
-    services: ["Developer.Here", "IPStack", "AWS", "DigitalOcean"],
+    services: ["Here API", "IPStack", "AWS", "DigitalOcean"],
     website: "n/a",
     github: "https://github.com/DDropping/BoardRack_v2",
     bgColor: "linear-gradient(#c2ffe5, #c2ffdb)",
@@ -47,11 +47,13 @@ export default [
     technologies: [
       "Gatsby",
       "React",
-      "React-Bootstrap",
+
       "Node",
-      "Framer-Motion",
+
       "SCSS",
       "GraphQL",
+      "React-Bootstrap",
+      "Framer-Motion",
     ],
     services: ["Netlify"],
     website: "n/a",

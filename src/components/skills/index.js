@@ -31,18 +31,22 @@ const SkillsContainer = styled.div`
   padding: 0 10px 0 75px;
   display: flex;
   flex-wrap: wrap;
+  @media (max-width: 480px) {
+    padding: 0 10px 0 25px;
+  }
 `
 
 const Title = styled.h3`
   max-width: 1000px;
   margin: 0 auto;
+  padding-top: 15px;
   width: 100%;
   padding-left: 10px;
 `
 const SkillWrapper = styled.div`
   margin: 1rem 0;
   font-weight: bold;
-  width: 10rem;
+  width: 9rem;
   @media (max-width: 768px) {
     margin: 0.25rem 0;
   }

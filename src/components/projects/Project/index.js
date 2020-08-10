@@ -35,7 +35,7 @@ const Techtitle = styled.h4`
 `
 
 const TechWrapper = styled.h5`
-  margin: 0 1rem;
+  width: 6rem;
 `
 
 const index = ({
