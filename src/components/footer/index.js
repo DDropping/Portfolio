@@ -5,7 +5,7 @@ import GreenTop from "../background/waves/greenTop/index.js"
 import contact from "../../constants/contact"
 
 const Container = styled.div`
-  background-color: #caffc2;
+  background-color: #d7ffc2;
 `
 const ContactContainer = styled.div`
   display: flex;
@@ -17,7 +17,7 @@ const ContactContainer = styled.div`
 const ContactItem = styled.div`
   font-family: "Fugaz One", cursive;
   margin: 0 25px;
-  border-bottom: 2px solid #caffc2;
+  border-bottom: 2px solid #d7ffc2;
   &:hover {
     transition: all 0.2s ease-in-out;
     border-bottom: 2px solid black;

@@ -7,7 +7,7 @@ import GreenBottom from "../background/waves/greenBottom.js"
 import skills from "../../constants/skills"
 
 const Container = styled.div`
-  background-image: linear-gradient(#c2fbff, #c2ffe5);
+  background-image: linear-gradient(#c2fbff, #c2ffef);
 `
 
 const MainContainer = styled.div`

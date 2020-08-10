@@ -23,7 +23,7 @@ export default [
     services: ["Here API", "IPStack", "AWS", "DigitalOcean"],
     website: "n/a",
     github: "https://github.com/DDropping/BoardRack_v2",
-    bgColor: "linear-gradient(#c2ffe5, #c2ffdb)",
+    bgColor: "linear-gradient(#c2ffef, #c2ffe1)",
   },
   {
     title: "BoardRack",
@@ -36,7 +36,7 @@ export default [
     services: ["Here API", "IPStack", "AWS", "DigitalOcean"],
     website: "n/a",
     github: "https://github.com/DDropping/BoardRack",
-    bgColor: "linear-gradient(#c2ffe5, #c2ffdb)",
+    bgColor: "linear-gradient(#c2ffe1, #c2ffd3)",
   },
   {
     title: "Sams Designs",
@@ -49,7 +49,7 @@ export default [
     services: ["Contentful", "Stripe", "Neftlify"],
     website: "https://samsdesigns.netlify.com/",
     github: "https://github.com/DDropping/ecommerce",
-    bgColor: "linear-gradient(#c2ffdb, #c2ffd0)",
+    bgColor: "linear-gradient(#c2ffd3, #c2ffc3)",
   },
   {
     title: "Portfolio (previous)",
@@ -61,9 +61,7 @@ export default [
     technologies: [
       "Gatsby",
       "React",
-
       "Node",
-
       "SCSS",
       "GraphQL",
       "React-Bootstrap",
@@ -72,7 +70,7 @@ export default [
     services: ["Netlify"],
     website: "n/a",
     github: "https://github.com/DDropping/David-Portfolio",
-    bgColor: "linear-gradient(#c2ffd0, #c2ffc5)",
+    bgColor: "linear-gradient(#c2ffc3, #cdffc2)",
   },
   {
     title: "SFSU Rent",
@@ -85,6 +83,6 @@ export default [
     services: ["AWS", "Google", "Maps"],
     website: "n/a",
     github: "https://github.com/DDropping/SFSURent",
-    bgColor: "linear-gradient(#c2ffc5, #caffc2)",
+    bgColor: "linear-gradient(#cdffc2, #d7ffc2)",
   },
 ]
