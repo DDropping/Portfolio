@@ -63,7 +63,7 @@ const DrawerMenu = () => {
                 style={{ textDecoration: "none" }}
                 key={index}
               >
-                <Li>
+                <Li onClick={() => toggleOpen(false)}>
                   {item.icon}
                   {item.title}
                 </Li>
