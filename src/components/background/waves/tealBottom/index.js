@@ -17,7 +17,7 @@ const index = () => {
         init={{ x: "0px" }}
         anim={{ x: ["-1500px", "0px", "-1500px"] }}
         trans={{
-          duration: 50,
+          duration: 30,
           ease: "easeInOut",
           times: [0, 0.5, 1],
           loop: Infinity,
@@ -40,10 +40,10 @@ const index = () => {
       {/* Wave 3 */}
       <Wave
         cName="custom-shape-divider-top-1596838987"
-        init={{ x: "0px" }}
+        init={{ x: "-3000px" }}
         anim={{ x: ["-3000px", "0px", "-3000px"] }}
         trans={{
-          duration: 32,
+          duration: 20,
           ease: "easeInOut",
           times: [0, 0.5, 1],
           loop: Infinity,
@@ -53,10 +53,10 @@ const index = () => {
       {/* Wave 4 */}
       <Wave
         cName="custom-shape-divider-top-1596839163"
-        init={{ x: "-2000px" }}
-        anim={{ x: ["0px", "-2000px", "0px"] }}
+        init={{ x: "-4000px" }}
+        anim={{ x: ["0px", "-4000px", "0px"] }}
         trans={{
-          duration: 41,
+          duration: 15,
           ease: "easeInOut",
           times: [0, 0.5, 1],
           loop: Infinity,
@@ -66,10 +66,10 @@ const index = () => {
       {/* Wave 5 - smallest*/}
       <Wave
         cName="custom-shape-divider-top-1596837605"
-        init={{ x: "-1000px" }}
-        anim={{ x: ["0px", "-1000px", "0px"] }}
+        init={{ x: "-3500px" }}
+        anim={{ x: ["0px", "-3500px", "0px"] }}
         trans={{
-          duration: 75,
+          duration: 10,
           ease: "easeInOut",
           times: [0, 0.5, 1],
           loop: Infinity,

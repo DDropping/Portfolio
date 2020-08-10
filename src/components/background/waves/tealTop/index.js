@@ -17,7 +17,7 @@ const index = () => {
         init={{ x: "0px" }}
         anim={{ x: ["-1500px", "0px", "-1500px"] }}
         trans={{
-          duration: 50,
+          duration: 30,
           ease: "easeInOut",
           times: [0, 0.5, 1],
           loop: Infinity,
@@ -43,7 +43,7 @@ const index = () => {
         init={{ x: "0px" }}
         anim={{ x: ["-3000px", "0px", "-3000px"] }}
         trans={{
-          duration: 32,
+          duration: 20,
           ease: "easeInOut",
           times: [0, 0.5, 1],
           loop: Infinity,
@@ -56,7 +56,7 @@ const index = () => {
         init={{ x: "-2000px" }}
         anim={{ x: ["0px", "-2000px", "0px"] }}
         trans={{
-          duration: 41,
+          duration: 15,
           ease: "easeInOut",
           times: [0, 0.5, 1],
           loop: Infinity,
@@ -69,7 +69,7 @@ const index = () => {
         init={{ x: "-1000px" }}
         anim={{ x: ["0px", "-1000px", "0px"] }}
         trans={{
-          duration: 75,
+          duration: 10,
           ease: "easeInOut",
           times: [0, 0.5, 1],
           loop: Infinity,
