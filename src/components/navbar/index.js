@@ -18,6 +18,16 @@ const DrawerContainer = styled.div`
   }
 `
 
+const Title = styled.div`
+  font-family: "Fugaz One", cursive;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 1.5rem;
+  @media (min-width: 768px) {
+    display: none;
+  }
+`
+
 const Ul = styled.ul`
   list-style: none;
   display: flex;
@@ -30,6 +40,7 @@ const Ul = styled.ul`
 `
 
 const Li = styled.li`
+  font-family: "Fugaz One", cursive;
   margin: 20px 10px 0 10px;
   color: #000000bf;
   border-bottom: 2px solid #c2fbff;
@@ -62,6 +73,7 @@ const index = () => {
           )
         })}
       </Ul>
+      <Title>David Dropping</Title>
       <DrawerContainer>
         <DrawerMenu />
       </DrawerContainer>

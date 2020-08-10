@@ -16,6 +16,7 @@ const MainContainer = styled.div`
 `
 
 const SectionTitle = styled.div`
+  font-family: "Fugaz One", cursive;
   text-align: center;
   font-size: 1.5rem;
   font-weight: bold;

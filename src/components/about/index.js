@@ -30,6 +30,11 @@ const Paragraph = styled.p`
   font-size: 1rem;
 `
 
+const Title = styled.h1`
+  margin-top: 1rem;
+  font-family: "Fugaz One", cursive;
+`
+
 const index = () => {
   return (
     <Container>
@@ -39,7 +44,7 @@ const index = () => {
         </Col>
         <Col xs={24} sm={24} md={14} lg={14}>
           <DescriptionContainer>
-            <h1>Hi, I'm David!</h1>
+            <Title>Hi, I'm David!</Title>
             <Paragraph>
               My name's David Dropping and I'm a driven young professional
               looking to enter the world of web design and development. I’m{" "}
