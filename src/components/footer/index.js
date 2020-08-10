@@ -16,16 +16,13 @@ const ContactContainer = styled.div`
 
 const ContactItem = styled.div`
   margin: 0 25px;
-  border-top: 2px solid #caffc2;
+  border-bottom: 2px solid #caffc2;
   &:hover {
     transition: all 0.2s ease-in-out;
-    border-top: 2px solid #00b6bf;
+    border-bottom: 2px solid black;
   }
   a {
     color: black;
-    &:hover {
-      color: #00b6bf;
-    }
   }
 `
 
