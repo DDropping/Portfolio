@@ -19,11 +19,11 @@ $ npm install
 
 ---
 
-- Gatsby was used because unlike SPAs that make API requests while the app is running, gatsby fetches all data during build time and generates static HTML, JavaScript, and CSS files to make things much faster.
+- [Gatsby](https://www.gatsbyjs.org/docs/) was used because unlike SPAs that make API requests while the app is running, gatsby fetches all data during build time and generates static HTML, JavaScript, and CSS files to make things much faster.
 
-- Styled Components was used to keep the concerns of styling and element architecture separated while also increasing code readability.
+- [Styled Components](https://styled-components.com/) was used to keep the concerns of styling and element architecture separated while also increasing code readability.
 
-- Framer Motion was used to create nifty animations.
+- [Framer Motion](https://www.framer.com/motion/) was used to create nifty animations.
 
 ---
 
