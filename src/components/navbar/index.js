@@ -1,18 +1,32 @@
 import React from "react"
 import styled from "styled-components"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
+import { Link } from "gatsby"
 
 import navbarLinks from "../../constants/navbarLinks"
 import HomeIcon from "./HomeIcon"
+import DrawerMenu from "./DrawerMenu"
 
-const Ul = styled.ul`
+const Container = styled.div`
   width: 100%;
   min-height: 50px; /* size of home button */
+`
+
+const DrawerContainer = styled.div`
+  @media (min-width: 768px) {
+    display: none;
+  }
+`
+
+const Ul = styled.ul`
   list-style: none;
   display: flex;
   justify-content: center;
   margin: 0;
   padding: 0;
+  @media (max-width: 767px) {
+    display: none;
+  }
 `
 
 const Li = styled.li`
@@ -28,25 +42,30 @@ const Li = styled.li`
 
 const index = () => {
   return (
-    <Ul>
-      <AnchorLink to="/">
+    <Container>
+      <Link to="/">
         <HomeIcon />
-      </AnchorLink>
-      {navbarLinks.map((item, index) => {
-        return (
-          <AnchorLink
-            to={item.link}
-            style={{ textDecoration: "none" }}
-            key={index}
-          >
-            <Li>
-              {item.icon}
-              {item.title}
-            </Li>
-          </AnchorLink>
-        )
-      })}
-    </Ul>
+      </Link>
+      <Ul>
+        {navbarLinks.map((item, index) => {
+          return (
+            <AnchorLink
+              to={item.link}
+              style={{ textDecoration: "none" }}
+              key={index}
+            >
+              <Li>
+                {item.icon}
+                {item.title}
+              </Li>
+            </AnchorLink>
+          )
+        })}
+      </Ul>
+      <DrawerContainer>
+        <DrawerMenu />
+      </DrawerContainer>
+    </Container>
   )
 }
 
