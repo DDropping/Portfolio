@@ -57,24 +57,28 @@ const index = ({
         </Col>
         <Col xs={24} sm={24} md={24} lg={12}>
           <Title>{title}</Title>
-          <a
-            href={website}
-            target="_blank"
-            rel="noreferrer"
-            style={{ color: "#00d0da", marginLeft: "20px" }}
-          >
-            <GlobalOutlined />
-            Website
-          </a>
-          <a
-            href={github}
-            target="_blank"
-            rel="noreferrer"
-            style={{ color: "#00d0da", margin: "10px" }}
-          >
-            <GithubOutlined />
-            Repository
-          </a>
+          {website !== "n/a" && (
+            <a
+              href={website}
+              target="_blank"
+              rel="noreferrer"
+              style={{ color: "#00d0da", marginLeft: "20px" }}
+            >
+              <GlobalOutlined />
+              Website
+            </a>
+          )}
+          {github !== "n/a" && (
+            <a
+              href={github}
+              target="_blank"
+              rel="noreferrer"
+              style={{ color: "#00d0da", margin: "10px" }}
+            >
+              <GithubOutlined />
+              Repository
+            </a>
+          )}
           <Description>{description}</Description>
           <Description>{motivation}</Description>
         </Col>

@@ -20,8 +20,8 @@ export default [
       "Styled-Components",
     ],
     services: ["Developer.Here", "IPStack", "AWS", "DigitalOcean"],
-    website: "na",
-    github: "na",
+    website: "n/a",
+    github: "https://github.com/DDropping/BoardRack_v2",
     bgColor: "linear-gradient(#c2ffe5, #c2ffdb)",
   },
   {
