@@ -71,9 +71,14 @@ const AboutPage = () => (
                 more
               </strong>
               . You can find my full resume{" "}
-              <Link to="/" style={{ textDecoration: "none", color: "#00d0da" }}>
+              <a
+                href="https://drive.google.com/file/d/1OoGXm9yCowjETA5rUNHaz97gXPB8wrfw/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+                style={{ textDecoration: "none", color: "#00d0da" }}
+              >
                 <strong>here</strong>
-              </Link>
+              </a>
               .
             </Paragraph>
             <Paragraph>
