@@ -54,11 +54,17 @@ const index = () => {
                 more
               </strong>
               . You can find my full resume{" "}
-              <Link to="/" style={{ textDecoration: "none", color: "#00d0da" }}>
+              <Link
+                to="/resume"
+                style={{ textDecoration: "none", color: "#00d0da" }}
+              >
                 <strong>here</strong>
               </Link>
               . And while you're here,{" "}
-              <Link to="/" style={{ textDecoration: "none", color: "#00d0da" }}>
+              <Link
+                to="/contact"
+                style={{ textDecoration: "none", color: "#00d0da" }}
+              >
                 <strong>Reach out to me! I’d love to chat!</strong>
               </Link>
             </Paragraph>
