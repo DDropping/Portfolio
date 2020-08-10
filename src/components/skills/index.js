@@ -43,6 +43,9 @@ const SkillWrapper = styled.div`
   margin: 1rem 0;
   font-weight: bold;
   width: 10rem;
+  @media (max-width: 768px) {
+    margin: 0.25rem 0;
+  }
 `
 
 const index = () => {

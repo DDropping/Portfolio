@@ -54,7 +54,7 @@ export default [
       "GraphQL",
     ],
     services: ["Netlify"],
-    website: "https://www.ddropping.com/",
+    website: "n/a",
     github: "https://github.com/DDropping/David-Portfolio",
     bgColor: "linear-gradient(#c2ffd0, #c2ffc5)",
   },
