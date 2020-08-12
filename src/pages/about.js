@@ -41,6 +41,7 @@ const Image = styled.img`
 
 const DescriptionContainer = styled.div`
   h1 {
+    font-family: "Fugaz One", Helvetica, Arial;
     text-align: center;
   }
 `
@@ -67,8 +68,7 @@ const AboutPage = () => (
               spent the last few years honing my skills in top web technologies
               including:{" "}
               <strong>
-                React, Redux, Node, SQL, MongoDB, SASS & SCSS, GraphQL, and many
-                more
+                React, Redux, Node, SQL, MongoDB, GraphQL, and many more
               </strong>
               . You can find my full resume{" "}
               <a

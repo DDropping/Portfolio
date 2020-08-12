@@ -23,6 +23,9 @@ const ContactItem = styled.div`
     color: #000000;
     border-bottom: 2px solid #000000;
   }
+  a {
+    font-family: "Fugaz One", Helvetica, Arial;
+  }
 `
 
 const Note = styled.div`
