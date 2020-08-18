@@ -7,24 +7,6 @@ import SEO from "../components/seo"
 import Layout from "../components/layout"
 import profileImg from "../images/DavidProfile.png"
 
-// const Container = styled.div`
-//   display: flex;
-//   justify-content: center;
-//   flex-wrap: wrap;
-//   padding: 25px;
-// `
-
-// const Image = styled.img`
-//   width: 100%;
-//   max-width: 400px;
-//   border-radius: 50%;
-//   padding: 2rem;
-// `
-
-// const Paragraph = styled.p`
-//   text-indent: 2em;
-// `
-
 const Container = styled.div`
   margin: 0 auto 140px auto;
   padding: 0 10px;
@@ -72,7 +54,7 @@ const AboutPage = () => (
               </strong>
               . You can find my full resume{" "}
               <a
-                href="https://drive.google.com/file/d/1YLYSR_mtj4gnGJHZ1rJ0kHMaj-pDBIan/view?usp=sharing"
+                href="https://drive.google.com/file/d/1ER8UAO7J8Xbm_XlCyZ9H1xBhDlJyhEx3/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
                 style={{ textDecoration: "none", color: "#00d0da" }}

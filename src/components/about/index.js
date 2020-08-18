@@ -60,7 +60,7 @@ const index = () => {
               </strong>
               . You can find my full resume{" "}
               <a
-                href="https://drive.google.com/file/d/1YLYSR_mtj4gnGJHZ1rJ0kHMaj-pDBIan/view?usp=sharing"
+                href="https://drive.google.com/file/d/1ER8UAO7J8Xbm_XlCyZ9H1xBhDlJyhEx3/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
                 style={{ textDecoration: "none", color: "#00d0da" }}
