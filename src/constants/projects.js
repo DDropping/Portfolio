@@ -6,7 +6,7 @@ import sfsurentImg from "../images/project-sfsurent.png"
 
 export default [
   {
-    title: "BoardRack V2 (in progress)",
+    title: "BoardRack V2",
     image: boardrackv2Image,
     description:
       "BoardRack V2 is a complete overhaul of the origional classified advertisement platform for buying or selling new and used surfboards.",
@@ -21,7 +21,7 @@ export default [
       "Styled Components",
     ],
     services: ["Here API", "IPStack", "AWS", "Digital Ocean"],
-    website: "n/a",
+    website: "https://boardrack.dev/",
     github: "https://github.com/DDropping/BoardRack_v2",
     bgColor: "linear-gradient(#c2ffef, #c2ffe1)",
   },
