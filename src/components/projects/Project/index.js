@@ -69,7 +69,8 @@ const index = ({
                 href={website}
                 target="_blank"
                 rel="noreferrer"
-                style={{ color: "#00d0da", marginLeft: "20px" }}
+                style={{ color: "#000000", margin: "10px" }}
+                borderBottom="2px solid black"
               >
                 <GlobalOutlined />
                 Website
@@ -80,7 +81,8 @@ const index = ({
                 href={github}
                 target="_blank"
                 rel="noreferrer"
-                style={{ color: "#00d0da", margin: "10px" }}
+                style={{ color: "#000000", margin: "10px" }}
+                borderBottom="2px solid black"
               >
                 <GithubOutlined />
                 Repository
