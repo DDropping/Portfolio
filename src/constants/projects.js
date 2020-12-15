@@ -3,6 +3,7 @@ import boardrackv2Image from "../images/project-boardrackv2.png"
 import samsDesignsImg from "../images/project-samsDesigns.png"
 import portfolioImg from "../images/project-portfolio.png"
 import sfsurentImg from "../images/project-sfsurent.png"
+import sortVisImg from "../images/project-sortVisualizer.png"
 
 export default [
   {
@@ -39,12 +40,25 @@ export default [
     bgColor: "linear-gradient(#c2ffe1, #c2ffd3)",
   },
   {
+    title: "Sort Visualizer",
+    image: sortVisImg,
+    description:
+      "Sort Visualizer is an educational application that teaches the basics of sorting algorithms in an easy to comprehend fashion. This app shows how sorting algorithms work on a high level step by step and also provides, time complexities, space analysis, pseudocode, and the actual algorithm written in javascript.",
+    motivation:
+      "I created this application as a fun project to help refresh my understanding of sorting algorithms. I believe the easiest way to learn a sorting algorithm is by first, seeing what it does and how the algorithm sorts.",
+    technologies: ["React", "Create-React-App", "Styled Components"],
+    services: [],
+    website: "https://www.sortvis.net/",
+    github: "https://github.com/DDropping/SortingVisualizer",
+    bgColor: "linear-gradient(#c2ffd3, #c2ffd3)",
+  },
+  {
     title: "Sams Designs",
     image: samsDesignsImg,
     description:
       "SamsDesigns is an ecommerce website designed to sell custom designed apparel by Sam Kerrigan. Using Gatsby to deliver blazing fast static pages ensures consistent site-wide navigation, and a positive user experience. Designed using Contentful's content management system allows for simple site modification for non-technical administrators.",
     motivation:
-      "This website was created for a friend who wanted to start selling clothing, though this website does not currently allow the purchase of any items, it does include Stripe's payment processing upon checkout.",
+      "This website was created for a client who wanted to start selling clothing, though this website does not currently allow the purchase of any items, it does include Stripe's payment processing upon checkout.",
     technologies: ["Gatsby", "React", "Node", "SCSS", "GraphQL"],
     services: ["Contentful", "Stripe", "Neftlify"],
     website: "https://samsdesigns.netlify.com/",
