@@ -15,7 +15,7 @@ const ContactContainer = styled.div`
 `
 
 const ContactItem = styled.div`
-  font-family: "Fugaz One", Helvetica, Arial;
+  font-family: "Poppins", sans-serif;
   margin: 0 25px;
   border-bottom: 2px solid #d7ffc2;
   &:hover {

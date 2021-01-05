@@ -19,7 +19,7 @@ const Container = styled.div`
 const Image = styled.img``
 
 const Title = styled.h2`
-  font-family: "Fugaz One", Helvetica, Arial;
+  font-family: "Poppins", sans-serif;
   display: inline-block;
 `
 
@@ -32,7 +32,7 @@ const TechContainer = styled.div`
   flex-wrap: wrap;
 `
 const Techtitle = styled.h4`
-  font-family: "Fugaz One", Helvetica, Arial;
+  font-family: "Poppins", sans-serif;
   width: 100%;
 `
 

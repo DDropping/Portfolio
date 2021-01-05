@@ -93,7 +93,7 @@ export default [
       "SFSU Rent was a school team based project where I was the front-end lead of a seven person team. We developed a classified advertisement platform for students to find housing in the SF Bay Area.",
     motivation:
       "During the development of this platform, we incorporated practical methods and tools for software engineering including: Agile development, and weekly scrum meetings.",
-    technologies: ["Node", "MySQL", "HTML5", "CSS3"],
+    technologies: ["Node", "Express", "MySQL", "HTML5", "CSS3"],
     services: ["AWS", "Google", "Maps"],
     website: "n/a",
     github: "https://github.com/DDropping/SFSURent",

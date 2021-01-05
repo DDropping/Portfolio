@@ -1,12 +1,12 @@
 export default {
-  languages: ["Java", "JavaScript", "C++", "C", "Swift"],
+  languages: ["JavaScript", "Python", "Java", "C++", "Swift"],
   web: [
     "Node.js",
     "React",
-    "Angular",
     "Vue",
     "Redux",
     "Express",
+    "Django",
     "GraphQL",
     "HTML",
     "CSS",
@@ -18,11 +18,10 @@ export default {
     "AWS",
     "Digital Ocean",
     "Firebase",
-    "Jenkins",
     "Mocha",
     "Jest",
     "Enzyme",
   ],
-  databases: ["MySQL", "PostgreSQL", "MongoDB"],
-  mobile: ["UIKit"],
+  databases: ["MongoDB", "MySQL", "PostgreSQL"],
+  mobile: ["UIKit", "React Native"],
 }

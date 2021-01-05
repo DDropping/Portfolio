@@ -19,7 +19,7 @@ const DrawerContainer = styled.div`
 `
 
 const Title = styled.div`
-  font-family: "Fugaz One", Helvetica, Arial;
+  font-family: "Poppins", sans-serif;
   text-align: center;
   padding-top: 10px;
   font-size: 1.5rem;
@@ -40,7 +40,7 @@ const Ul = styled.ul`
 `
 
 const Li = styled.li`
-  font-family: "Fugaz One", Helvetica, Arial;
+  font-family: "Poppins", sans-serif;
   margin: 20px 10px 0 10px;
   color: #000000bf;
   border-bottom: 2px solid #c2fbff;

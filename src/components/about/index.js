@@ -32,7 +32,7 @@ const Paragraph = styled.p`
 
 const Title = styled.h1`
   margin-top: 1rem;
-  font-family: "Fugaz One", Helvetica, Arial;
+  font-family: "Poppins", sans-serif;
 `
 
 const index = () => {

@@ -16,7 +16,7 @@ const MainContainer = styled.div`
 `
 
 const SectionTitle = styled.div`
-  font-family: "Fugaz One", Helvetica, Arial;
+  font-family: "Poppins", sans-serif;
   text-align: center;
   font-size: 1.5rem;
   font-weight: bold;
@@ -38,7 +38,7 @@ const SkillsContainer = styled.div`
 `
 
 const Title = styled.div`
-  font-family: "Fugaz One", Helvetica, Arial;
+  font-family: "Poppins", sans-serif;
   color: black;
   font-size: 1.1rem;
   max-width: 1000px;
