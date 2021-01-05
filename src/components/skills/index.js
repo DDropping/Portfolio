@@ -101,6 +101,18 @@ const index = () => {
           })}
         </SkillsContainer>
 
+        <Title>Mobile</Title>
+        <SkillsContainer>
+          {skills.mobile.map((skill, index) => {
+            return (
+              <SkillWrapper key={index}>
+                <CaretRightOutlined style={{ color: "#00000015" }} />
+                {skill}
+              </SkillWrapper>
+            )
+          })}
+        </SkillsContainer>
+
         <Title>Tools</Title>
         <SkillsContainer>
           {skills.tools.map((skill, index) => {
